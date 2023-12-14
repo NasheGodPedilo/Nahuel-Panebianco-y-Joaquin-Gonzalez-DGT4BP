@@ -1,0 +1,38 @@
+html{
+    margin: 0 auto;
+}
+  
+body{
+    margin: 0;
+    width: 100%;
+    background-color: #FDFCEA;
+}
+  
+nav{
+    font-family: Rubik;
+}
+  
+  
+footer{
+    background-color: #B85B56;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  footer a{
+    color: #F8F5F2;
+}
+  .pieflex{
+    display: flex;
+    justify-content: space-between;
+    font-display: row;
+    color: #F8F5F2;
+    padding-left: 80px;
+}
+footer .redes{
+    display: flex;
+    width: 5%;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 185px;  
+}

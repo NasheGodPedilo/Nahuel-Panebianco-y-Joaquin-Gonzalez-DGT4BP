@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP3 - Sitio web en bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Prata&family=Raleway:wght@300&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos-Shop.css">
+</head>
+
+
+<body>
+    <nav class="navbar bg-body-tertiary bg-warning-subtle text-emphasis-warning ">
+        <div class="container">
+          <a class="navbar-brand " href="#">
+            <img src="img/logoBellasArtes.png" alt="Bootstrap" width="152">
+          </a>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary bg-warning-subtle text-emphasis-warning">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="1-Inicio.html">Inicio</a>
+                  <a class="nav-link" href="2-QuieneSomos.html">Quienes somos</a>
+                  <a class="nav-link" href="3-Colecciones.html">Colecciones</a>
+                  <a class="nav-link" href="4-Shop.html">Shop</a>
+                  <a class="nav-link" href="5-Contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </nav>
+
+
+<main>
+    <!-- SHOP -->
+    <section id="shop">
+        <div class="container-fluid">
+            <div class="row division-section py-3 text-center mb-5">
+                <div class="col-11 mx-auto text-white">
+                    <i class="bi bi-cart fs-4"></i>
+                    <h2 class="d-inline ms-2 fs-2">Tienda</h2>
+                </div>
+            </div>
+            <div class="col-10 col-lg-9 mx-auto text-center my-5">
+                <p class="lead">Elegí entre los más de 1000 productos con los que contamos en la tienda como libros, bolsas, libretas, entre otros.</p>
+            </div>
+            <div class="row d-flex justify-content-center mx-auto px-md-5">
+                <!-- 1 -->
+                <div class="col-11 col-md-6 col-lg-3 mb-4">
+                    <div id="p1" class="card h-100 border-0">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal1">
+                            <img src="img/producto1.png" class="card-img-top p-3" alt="product_1">
+                        </a>
+                        <div class="card-body">
+                            <p class="m-0"><small class="shop-books">LIBROS</small></p>
+                            <h3 class="card-title m-0 fs-5 mt-1">Recurrencias | León Ferrari</h3>
+                            <p class="fs-5 m-0 my-1 mb-2">$200</p>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <a id="b1" href="#" class="btn btn-black">Comprar</a>
+                                <i class="bi bi-heart fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="col-11 col-md-6 col-lg-3 mb-4">
+                    <div id="p1" class="card h-100 border-0">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal2">
+                            <img src="img/producto2.png" class="card-img-top p-3" alt="product_2">
+                        </a>
+                        <div class="card-body">
+                            <p class="m-0"><small class="shop-clothes">BOLSAS</small></p>
+                            <h3 class="card-title m-0 fs-5 mt-1">Bolsa "Bellas Artes"</h3>
+                            <p class="fs-5 m-0 my-1 mb-2">$320</p>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <a id="b1" href="#" class="btn btn-black">Comprar</a>
+                                <i class="bi bi-heart fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="col-11 col-md-6 col-lg-3 mb-4">
+                    <div id="p1" class="card h-100 border-0">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal3">
+                            <img src="img/producto3.png" class="card-img-top p-3" alt="product_3">
+                        </a>
+                        <div class="card-body">
+                            <p class="m-0"><small class="shop-collectable">COLECCIONABLES</small></p>
+                            <h3 class="card-title m-0 fs-5 mt-1">Significados y belleza</h3>
+                            <p class="fs-5 m-0 my-1 mb-2">$230</p>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <a id="b1" href="#" class="btn btn-black">Comprar</a>
+                                <i class="bi bi-heart fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="col-11 col-md-6 col-lg-3 mb-4">
+                    <div id="p1" class="card h-100 border-0">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal4">
+                            <img src="img/producto4.png" class="card-img-top p-3" alt="product_4">
+                        </a>
+                        <div class="card-body">
+                            <p class="m-0"><small class="shop-books">COLECCIONABLES</small></p>
+                            <h3 class="card-title m-0 fs-5 mt-1">Chalina Fader Bellas Artes</h3>
+                            <p class="fs-5 m-0 my-1 mb-2">$1000</p>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <a id="b1" href="#" class="btn btn-black">Comprar</a>
+                                <i class="bi bi-heart fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="col-11 col-md-6 col-lg-3 mb-4">
+                    <div id="p1" class="card h-100 border-0">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal5">
+                            <img src="img/producto5.png" class="card-img-top p-3" alt="product_5">
+                        </a>
+                        <div class="card-body">
+                            <p class="m-0"><small class="shop-collectable">COLECCIONABLES</small></p>
+                            <h3 class="card-title m-0 fs-5 mt-1">Plancha de stickers</h3>
+                            <p class="fs-5 m-0 my-1 mb-2">$280</p>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <a id="b1" href="#" class="btn btn-black">Comprar</a>
+                                <i class="bi bi-heart fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="col-11 col-md-6 col-lg-3 mb-4">
+                    <div id="p1" class="card h-100 border-0">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal6">
+                            <img src="img/producto6.png" class="card-img-top p-3" alt="product_6">
+                        </a>
+                        <div class="card-body">
+                            <p class="m-0"><small class="shop-other">LIBROS</small></p>
+                            <h3 class="card-title m-0 fs-5 mt-1">Libreta sorolla y bastida</h3>
+                            <p class="fs-5 m-0 my-1 mb-2">$600</p>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <a id="b1" href="#" class="btn btn-black">Comprar</a>
+                                <i class="bi bi-heart fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 7 -->
+                <div class="col-11 col-md-6 col-lg-3 mb-4">
+                    <div id="p1" class="card h-100 border-0">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal7">
+                            <img src="img/producto7.png" class="card-img-top p-3" alt="product_7">
+                        </a>
+                        <div class="card-body">
+                            <p class="m-0"><small class="shop-other">OTROS</small></p>
+                            <h3 class="card-title m-0 fs-5 mt-1">Cueva de las Manos</h3>
+                            <p class="fs-5 m-0 my-1 mb-2">$800</p>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <a id="b1" href="#" class="btn btn-black">Comprar</a>
+                                <i class="bi bi-heart fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 8 -->
+                <div class="col-11 col-md-6 col-lg-3 mb-4">
+                    <div id="p1" class="card h-100 border-0">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#modal8">
+                            <img src="img/producto8.png" class="card-img-top p-3" alt="product_8">
+                        </a>
+                        <div class="card-body">
+                            <p class="m-0"><small class="shop-clothes">OTROS</small></p>
+                            <h3 class="card-title m-0 fs-5 mt-1">Caravaggio y Seguidores</h3>
+                            <p class="fs-5 m-0 my-1 mb-2">$500</p>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <a id="b1" href="#" class="btn btn-black">Comprar</a>
+                                <i class="bi bi-heart fs-4"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<footer>
+    <div class="contenedor pieflex">
+        <p class="copyright">Diseñado por <strong>Nahuel Panebianco</strong> y <strong>Joaquín González</strong>- Todos los
+            derechos reservados 2023.
+        </p>
+        <ul class="redes">
+            <a href="#" target="new" title="Instagram Bellas Artes">
+            <img src="img/IG-Logo.png" alt="instagram"></a>
+            <a href="#" target="new" title="Facebook Bellas Artes">
+            <img src="img/Facebook-Logo.png" alt="facebook"></a>
+            <a href="#" target="new" title="Twitter Bellas Artes">
+            <img src="img/TW-Logo.png" alt="twitter"></a>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

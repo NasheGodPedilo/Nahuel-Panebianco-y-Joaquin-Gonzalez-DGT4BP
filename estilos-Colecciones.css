@@ -1,0 +1,88 @@
+html{
+    margin: 0 auto;
+  }
+  
+  body{
+      margin: 0;
+      width: 100%;
+      background-color: #FDFCEA;
+  }
+  
+  nav{
+      font-family: Rubik;
+  }
+  
+  
+  .btn{
+      color: white;
+      background-color: #B6201C;
+  }
+  
+  .btn:hover{
+      background-color: #B85B56;
+  }
+  
+  #galería h3{
+    font-family: Prata;
+    color: #73706C;
+    width: 100%;
+  }
+  #galería h1{
+    font-family: Prata;
+    color: #73706C;
+    width: 100%;
+  }
+  #galería h5{
+    font-family: Prata;
+    color: #F8F5F2;
+    width: 100%;
+  }
+  
+  #galería p{
+      font-family: Raleway;
+      color: #F8F5F2;
+      width: 100%;
+  }
+  
+  #galería a{
+    font-family: Raleway;
+    color: #F8F5F2;
+    width: 100%;  
+  }
+  
+  .card{
+      display: block;
+      padding-top: 20px;
+      text-align: center;
+      justify-content: center;
+      background-color: #E76658;
+      width: 100%;
+  }
+  .card.body{
+      background-color: #FDFCEB;
+  }
+  
+  
+  footer{
+      background-color: #B85B56;
+      font-size: 12px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  footer a{
+      color: #F8F5F2;
+  }
+  .pieflex{
+      display: flex;
+      justify-content: space-between;
+      font-display: row;
+      color: #F8F5F2;
+      padding-left: 80px;
+  }
+  footer .redes{
+      display: flex;
+      width: 5%;
+      justify-content: space-between;
+      flex-direction: row;
+      padding-right: 185px;  
+  }

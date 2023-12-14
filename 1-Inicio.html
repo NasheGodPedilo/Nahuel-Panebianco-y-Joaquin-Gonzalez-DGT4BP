@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP3 - Sitio web en bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Prata&family=Raleway:wght@300&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos-Inicio.css">
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary bg-warning-subtle text-emphasis-warning ">
+        <div class="container">
+          <a class="navbar-brand " href="#">
+            <img src="img/logoBellasArtes.png" alt="Bootstrap" width="152">
+          </a>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary bg-warning-subtle text-emphasis-warning">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="1-Inicio.html">Inicio</a>
+                  <a class="nav-link" href="2-QuieneSomos.html">Quienes somos</a>
+                  <a class="nav-link" href="3-Colecciones.html">Colecciones</a>
+                  <a class="nav-link" href="4-Shop.html">Shop</a>
+                  <a class="nav-link" href="5-Contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active bg-dark text-white">
+            <img src="img/slide-1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Descubre un viaje a través de los siglos</h2>
+              <p>Donde cada obra es una ventana al alma del arte</p>
+            </div>
+          </div>
+          <div class="carousel-item bg-dark text-white">
+            <img src="img/slide-2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>¡Adéntrate en la Belleza!</h2>
+              <p>Descuento del 15% en la Entrada al Museo de Bellas Artes</p>
+            </div>
+          </div>
+          <div class="carousel-item bg-dark text-white">
+            <img src="img/slide-3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Celebra el Arte</h2>
+              <p>¡Entrada Gratuita para Grupos de Estudiantes!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section id="presentación">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-9 mx-auto text-center d-lg-flex justify-content-lg-center align-items-lg-center">
+                    <div class="col-12 col-lg-6 text-lg-start">
+                        <h1 class="display-5">Museo de Bellas Artes</h1>
+                        <p class="lead">El Museo Nacional de Bellas Artes (MNBA), ubicado en la Ciudad de Buenos Aires, 
+                            es una de las instituciones públicas de arte más importantes de Argentina. Alberga un patrimonio 
+                            sumamente diverso, que incluye más de 12 000 piezas, entre pinturas, esculturas, dibujos, grabados, 
+                            textiles y objetos.<br>
+                            Su gravitación reside también en el número de visitantes, de todas 
+                            las edades, diferentes estratos sociales, procedentes del país y del exterior.
+                        </p>
+                        <a href="Inicio.html" class="btn btn-red fs-5 d-block d-lg-inline-block">ADQUIRIR
+                            ENTRADAS</a>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-4 mt-lg-0 text-lg-end">
+                        <img src="img/museo.png" class="img-fluid" alt="presentación">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div id="galería" class="text-center mt-5">
+        <h3 class="lead display-6">Colecciones</h3>
+        <h1 class="display-4">GALERÍA DE BELLAS ARTES</h1>
+      
+     <section class="text-emphasis-warning">        
+     <div class="d-flex flex-row d-flex justify-content-center  pt-3 pb-3 pe-3 ps-3">
+      <div class="card mx-3" style="width: 18rem;">
+        <img src="img/galería1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Augusto Ferrari</h5>
+          <p class="card-text">El Museo Nacional de Bellas Artes inaugura el martes 18 de abril, a las 19, “Fotografías de Augusto Ferrari 
+            en la colección del Bellas Artes”, primera exposición individual que la institución dedica a la obra del pintor, arquitecto y 
+            fotógrafo nacido en Italia, padre de León Ferrari.</p>
+          <a href="3-Colecciones.html" class="btn -primary">Ver más</a>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem;">
+        <img src="img/galería2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Papeles Antiguos</h5>
+          <p class="card-text">El Bellas Artes presenta, desde el martes 29 de marzo, la exhibición temporaria “Papeles antiguos. 
+            Dibujos italianos del Museo Nacional de Bellas Artes”, curada por el especialista Ángel Navarro, que presenta más de un 
+            centenar de obras de grandes maestros italianos de los siglos XVI al XVIII.</p>
+          <a href="3-Colecciones.html" class="btn -primary">Ver más</a>
+        </div>
+      </div>
+      <div class="card mx-3" style="width: 18rem;">
+        <img src="img/galería3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">La memoria residual</h5>
+          <p class="card-text">El Museo Nacional de Bellas Artes inaugura el martes 10 de mayo, la muestra “Juan Carlos Distéfano. 
+            La memoria residual”, que reunirá en el Pabellón de exposiciones temporarias 
+            de esculturas en los que el artista reinterpreta a sus grandes maestros de la pintura argentina y universal.</p>
+          <a href="3-Colecciones.html" class="btn -primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- EVENTOS -->
+<section id="eventos">
+    <div class="container-fluid pb-1 text-center">
+        <div class="row division-section py-3 text-center mb-5">
+            <div class="col-11 mx-auto text-white">
+                <i class="bi bi-brush fs-4"></i>
+                <h1 class="d-inline ms-2 fs-2">EVENTOS</h1>
+            </div>
+        </div>
+        <div class="col-10 col-lg-9 mx-auto text-center mt-4">
+            <h2 class="lead">Nuestra inauguración de las distintas obras más conocidas del museo.</h2>
+        </div>
+        <div class="row mx-md-4 mx-lg-4 pt-3">
+            <!-- EVENTO 1 -->
+            <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+                <a href="colecciones.html#eventosSection1">
+                    <div class="card h-100 text-bg-dark border-0">
+                        <img src="img/evento1.jpg" class="card-img" alt="eventos_1">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                            <div>
+                                <h3 class="card-title card-title1"><strong>Prilidiano Pueyrredón</strong></h3>
+                                <p>El Museo Nacional de Bellas Artes inaugura el jueves 23 de noviembre, a las 19, la exposición temporaria 
+                                    “Prilidiano Pueyrredón.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- EVENTO 2 -->
+            <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+                <a href="colecciones.html#eventosSection2">
+                    <div class="card h-100 text-bg-dark border-0">
+                        <img src="img/evento2.jpg" class="card-img" alt="eventos_2">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                            <div>
+                                <h3 class="card-title card-title2"><strong>Eduardo Sívori</strong></h3>
+                                <p>El Museo Nacional de Bellas Artes inaugura el 28 de septiembre a las 19, en el Pabellón de exposiciones 
+                                    temporarias, “Eduardo Sívori.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- EVENTO 3 -->
+            <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+                <a href="colecciones.html#eventosSection3">
+                    <div class="card h-100 text-bg-dark border-0">
+                        <img src="img/evento3.jpg" class="card-img" alt="eventos_3">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                            <div>
+                                <h3 class="card-title card-title3"><strong>Panorama</strong></h3>
+                                <p> El Museo Nacional de Bellas Artes inaugura el jueves 21 de septiembre, la exposición “Panorama, 
+                                    El teatro de la memoria”.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- EVENTO 4 -->
+            <div class="col-11 col-md-6 col-lg-3 mb-4 mx-auto">
+                <a href="colecciones.html#eventosSection4">
+                    <div class="card h-100 text-bg-dark border-0">
+                        <img src="img/evento4.jpg" class="card-img" alt="eventos_4">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-end">
+                            <div>
+                                <h3 class="card-title card-title4"><strong>Premio Nacional</strong></h3>
+                                <p>El Museo abre al público el martes 24 de octubre la exposición que presenta las 
+                                    obras de los ocho galardonados del Premio Nacional a la Trayectoria Artística 2023.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-11 col-md-12 mx-auto mb-4 text-center text-md-end d-grid d-md-block">
+                <a href="1-Inicio.html" class="btn btn-black">Ir a la colección</a>
+            </div>
+        </div>
+    </div>
+</section>
+  
+<section id="opinión">
+    <div class="container-fluid pb-1">
+        <div class="row division-section py-3 text-center mb-5">
+            <div class="col-11 mx-auto text-white">
+                <i class="bi bi-chat-right-dots fs-4"></i>
+                <h2 class="d-inline ms-2 fs-2">Opiniones</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-11 mx-auto mb-5">
+                <h2 class="display-6">Por que tu opinión nos interesa</h2>
+            </div>
+            <div id="aaa" class="col-12 col-md-11 mx-auto shadow-lg py-5">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/persona1.png" alt="opinión_1"
+                                class="img-fluid rounded-circle">
+                            <h3 class="my-3">Carlos Montiel</h3>
+                            <div class="col-9 mx-auto">
+                                <p class="">Hermoso para observar tantas obras de arte con entrada libre y gratuita. 
+                                    Si la idea es recorrerlo completo hay que dedicarle tiempo, recomiendo dividir la 
+                                    visita en partes si tienen la oportunidad.</p>
+                            </div>
+                            <ul class="nav justify-content-center mb-1">
+                                <li class="nav-item active px-1"><i
+                                        class="bi bi-star-fill opinión-rate fs-4"></i></li>
+                                <li class="nav-item active px-1"><i
+                                        class="bi bi-star-fill opinión-rate fs-4"></i></li>
+                                <li class="nav-item active px-1"><i
+                                        class="bi bi-star-fill opinión-rate fs-4"></i></li>
+                                <li class="nav-item active px-1"><i
+                                        class="bi bi-star-fill opinión-rate fs-4"></i></li>
+                                <li class="nav-item active px-1"><i
+                                        class="bi bi-star-half opinión-rate fs-4"></i></li>
+                            </ul>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/persona2.png" alt="opinión_2"
+                                class="img-fluid rounded-circle">
+                            <h3 class="my-3">Agustina Padilla</h3>
+                            <div class="col-9 mx-auto">
+                                <p class="">Un hermoso paseo. Para disfrutar arte y aprender. El personal del museo, amables y cálidos. 
+                                     Hay guardarropa.  Los sanitarios, en impecable estado.</p>
+                            </div>
+                            <ul class="nav justify-content-center mb-1">
+                                <li class="nav-item active px-1"><i
+                                        class="bi bi-star-fill opinión-rate fs-4"></i></li>
+                                <li class="nav-item active px-1"><i
+                                        class="bi bi-star-fill opinión-rate fs-4"></i></li>
+                                <li class="nav-item active px-1"><i
+                                        class="bi bi-star-fill opinión-rate fs-4"></i></li>
+                                <li class="nav-item active px-1"><i
+                                        class="bi bi-star-fill opinión-rate fs-4"></i></li>
+                                <li class="nav-item active px-1"><i
+                                        class="bi bi-star-fill opinión-rate fs-4"></i></li>
+                            </ul>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/persona3.png" alt="opinión_3"
+                                class="img-fluid rounded-circle">
+                            <h3 class="my-3">Cristina Aguilera</h3>
+                            <div class="col-9 mx-auto">
+                                <p class="">Que un lugar con una colección de arte tan buena sea gratuito es algo que se agradece. 
+                                    Las instalaciones muy cómodas, el recorrido es un poco enrevesado pero no es una queja.</p>
+                            </div>
+                            <ul class="nav justify-content-center mb-1">
+                                <li class="nav-item active px-1"><i
+                                        class="bi bi-star-fill opinión-rate fs-4"></i></li>
+                                <li class="nav-item active px-1"><i
+                                        class="bi bi-star-fill opinión-rate fs-4"></i></li>
+                                <li class="nav-item active px-1"><i
+                                        class="bi bi-star-fill opinión-rate fs-4"></i></li>
+                                <li class="nav-item active px-1"><i
+                                        class="bi bi-star-fill opinión-rate fs-4"></i></li>
+                                <li class="nav-item active px-1"><i
+                                        class="bi bi-star-half opinión-rate fs-4"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="contenedor pieflex">
+        <p class="copyright">Diseñado por <strong>Nahuel Panebianco</strong> y <strong>Joaquín González</strong>- Todos los
+            derechos reservados 2023.
+        </p>
+        <ul class="redes">
+            <a href="#" target="new" title="Instagram Bellas Artes">
+            <img src="img/IG-Logo.png" alt="instagram"></a>
+            <a href="#" target="new" title="Facebook Bellas Artes">
+            <img src="img/Facebook-Logo.png" alt="facebook"></a>
+            <a href="#" target="new" title="Twitter Bellas Artes">
+            <img src="img/TW-Logo.png" alt="twitter"></a>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
